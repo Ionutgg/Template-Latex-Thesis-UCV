@@ -1,0 +1,82 @@
+\documentclass[twoside,11pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+%colorarea celulelor din tabele
+\usepackage[table]{xcolor}
+%pentru simboluri
+%\usepackage{amssymb}
+%comanda thead din tabele
+\usepackage{makecell}
+%combinarea randurilor unui tabel
+\usepackage{multirow}
+%linierea a unor celule specifice 
+\usepackage{hhline}
+%inserarea imaginilor 
+\usepackage{graphicx}
+%crearea header-ului
+\usepackage{fancyhdr}
+%aliniearea textului
+\usepackage{ragged2e}
+%crearea referintelor catre o imagine/tabel
+\usepackage{hyperref}
+%controlarea spatieri intre randuri in diverse situatii
+\usepackage[nodisplayskipstretch]{setspace}
+%schimbarea formatului titlurilor
+\usepackage{titlesec}
+\titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter.}{16pt}{\huge}
+\titlespacing{\chapter}{0cm}{0cm}{0cm}
+%font
+\usepackage{newtxtext,newtxmath}
+
+%alinierea
+\usepackage[top=2.5cm, bottom=2cm, left=2.5cm, right=2cm]{geometry}
+%\setlength{\headheight}{-1.50cm}
+\setlength{\headsep}{0.50cm}
+
+%setare path catre imagini
+\graphicspath{{continut/imagini}}
+\pagenumbering{roman}
+%setare header
+\renewcommand{\headrulewidth}{0pt} %pt a elimina linia de sub header
+\fancyhf{}
+\rfoot{\begin{center}\thepage \end{center}}
+\renewcommand{\figurename}{\textbf{Figura}}
+\renewcommand{\thefigure}{\textbf{\arabic{figure}}}
+
+\renewcommand{\tablename}{\textbf{Tabelul}}
+\renewcommand{\thetable}{\textbf{\arabic{table}}}
+
+\renewcommand{\contentsname}{CUPRINSUL}
+\renewcommand{\listfigurename}{LISTA FIGURILOR}
+\renewcommand{\listtablename}{LISTA TABELELOR}
+
+\begin{document}
+
+\input{continut/coperta.tex}
+
+\input{continut/declaratie_originalitate.tex}
+
+\input{continut/tabele.tex}
+
+\input{continut/rezumat-prolog.tex}
+
+\input{continut/cuprins.tex}
+
+\input{continut/capitol1.tex}
+
+\input{continut/capitol2.tex}
+
+\input{continut/capitol3.tex}
+
+\input{continut/capitol4.tex}
+
+\input{continut/capitol5.tex}
+
+\input{continut/capitol6.tex}
+
+\input{continut/capitolA.tex}
+
+\input{continut/capitolB.tex}
+
+\input{continut/capitolC.tex}
+
+\end{document}
