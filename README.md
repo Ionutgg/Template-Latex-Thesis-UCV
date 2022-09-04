@@ -50,4 +50,4 @@ Cand apare fereastra urmatoare se deselecteaza casuta "Always show this dialog"
 
 Se apasa "Install"
 
-Dupa cateva minute in folder-ul cu fisierul main.tex ar trebui sa fie si un pdf numit main
+Dupa cateva minute in folderul cu main.tex ar trebui sa fie si un pdf numit main
