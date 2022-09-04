@@ -1,4 +1,4 @@
-# Gid Instalare
+# Ghid Instalare
 1) Se instaleaza programele urmatoare:
 
 https://code.visualstudio.com/ <br />
