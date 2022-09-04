@@ -1,8 +1,8 @@
 # Gid Instalare
 1) Se instaleaza programele urmatoare:
 
-https://code.visualstudio.com/
-https://miktex.org/download
+https://code.visualstudio.com/ <br />
+https://miktex.org/download <br />
 https://strawberryperl.com/
 
 2) Updatam MiKTeX
