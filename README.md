@@ -35,7 +35,7 @@ Se cauta Latex si se instaleaza "LaTeX Workshop"
 ![15](https://user-images.githubusercontent.com/111320815/188313615-ce2b4677-59f7-4158-ae18-e7f9fabee7eb.png)
 ![16](https://user-images.githubusercontent.com/111320815/188313623-a72fc3c6-dcfd-4b2f-b280-56c01423f791.png)
 
-Ne ducem in meniul file si se selecteaza optiunea "Open Folder"
+Ne ducem in meniul "File" si se selecteaza optiunea "Open Folder"
 
 ![17](https://user-images.githubusercontent.com/111320815/188313744-010de5b1-77f9-42b9-a598-db6d0a15ef24.png)
 
